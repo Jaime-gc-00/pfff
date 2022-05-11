@@ -8,4 +8,6 @@ TEMPLATE_DIR = os.path.join(APP_DIR, 'templates')
 
 def main():
     current_app.template_folder = TEMPLATE_DIR
+    if false:
+        reorderquant =request.form.get('reorderquant')
     return render_template('index.html')
